@@ -3,10 +3,8 @@
 ## Pledged Work Policy
 
 This is a ___Pledged Work___ assignment.  This means that the work you submit for grading ___must___ be your team's work product.  
-You may not submit the work of others
-outside of your team , or the modification of work of others
-outside of your team.
-You certainly may talk with each other about general problems.  For example, you may talk to someone about "What does it mean when the compiler says there is a semicolon missing on line 20", or "I can not get my assignment template to download from GitHub, what did you do?".  However, you may not engage in "Could you send me a copy of your work so I can see how to get started?".  You may get full and detailed assistance from me, the Graduate Teaching Assistant, and the TAs in the Computer Science Center.  If you have any question about the appropriateness of assistance, do not hesitate to consult with me.
+You may not submit the work of others outside of your team , or the modification of work of others outside of your team.
+You are encouraged to talk with each other about general problems.  For example, you may talk to someone about "What does it mean when the compiler says there is a semicolon missing on line 20", or "I can not get my assignment template to download from GitHub, what did you do?".  However, you may not engage in "Could you send me a copy of your work so I can see how to get started?".  You may get full and detailed assistance from me, the Teaching Assistant (TA), and the TAs in the Computer Science Center.  If you have any question about the appropriateness of assistance, do not hesitate to consult with me.
 
 If I believe you have violated our ___Pledge Work___ agreement, I will pursue this matter through the college Honor Council.
 
@@ -18,13 +16,12 @@ In this project, you will implement:
 
 1. A generic BST with iterator interface.
 2. A parser capable of reading and processing input commands.
-3. A BST that can accommodate user-defined data types.
 
 ## Invocation and I/O Files:
 
 The name of the program is `Proj1` ( provided with a `main` method in`Proj1.java` ). 
 
-You are encouraged to run and debug code in **IntelliJ IDEA**. Also, the program can be invoked from the command-line as:
+You are encouraged to run and debug code in __IntelliJ IDEA__. Also, the program can be invoked from the command-line as:
 
 ```shell
 java Proj1 {command-file}
@@ -116,7 +113,7 @@ The `BST` class shall support the following commands. (Check example commands in
    
    ```
    ## sample input.txt
-   Hello CSC201B
+   Hello CSC 201
    
    ## sample result.txt
    Invalid Command
@@ -126,35 +123,18 @@ Note that you need to **implement an iterator** interface that enables the itera
 
 ## Submission:
 
-You should submit a compressed .zip archive to Canvas. The .zip file should be named as `Proj1_GroupNumber.zip`and contain files: `Proj1.java`, `BST.java`, `Node.java`, `Parser.java`, `MySquare.java`.
+Your project will be developed and graded via GitHub. Your final "push" is your final submission. On Canvas, enter the url to your Github repository. Your project will not be graded without it.
 
-## Rubric (100 points in total):
+## Recommendations:
 
-+ Part 1 BST: 30 points in total
-  + Commenting and Code Style: 10 points 
-  + Implementation: 20 points
-+ Part 2 Parser: 50 points in total
-  + Commenting and Code Style: 10 points 
-  + Implementation: 20 points
-  + Correctness (Test cases): 20 points 
-+ Part 3 MySquare: 20 points in total
-  + Commenting and Code Style: 10 points 
-  + Implementation: 10 points
+I ___strongly suggest___ that you carefully think through your strategy before just jumping into the code.  Once that is working, start adding in new features individually.  A good place to start is building your class.
 
 *In order to get full points of Commenting and Code Style, you need to add comments to every methods and head comments for each file (providing file description, author, date, and acknowledgement).
 
-
-
 */∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗*
-
 ∗ @*file: filename. java*
-
 *∗ @description: This program implements . . .*
-
 *∗ @author: Your Name*
-
 *∗ @date: January 20 , 2024*
-
 *∗ @acknowledgement : worked with XXX*
-
 *∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗/*
