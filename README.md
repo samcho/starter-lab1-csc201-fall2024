@@ -1,4 +1,4 @@
-# Project 1 @ CSC 201B Fall 2024: Binary Search Tree
+# Project 1 @ CSC 201 Fall 2024: Binary Search Tree (Part 1)
 
 ## Pledged Work Policy
 
@@ -30,7 +30,7 @@ You are encouraged to run and debug code in **IntelliJ IDEA**. Also, the program
 java Proj1 {command-file}
 ```
 
-For Parts 1 and 2, your program will read a series of commands from the input file `input.txt` and generate the output file  `result.txt`, which will be used for grading.
+For Sections 1 and 2, your program will read a series of commands from the input file `input.txt` and generate the output file  `result.txt`, which will be used for grading.
 
 
 ## 1. **Generic BST with Iterator Interface**
@@ -123,37 +123,6 @@ The `BST` class shall support the following commands. (Check example commands in
    ```
 
 Note that you need to **implement an iterator** interface that enables the iterator to traverse all nodes in the BST in ascending order. 
-
-## 3. My Square
-
-For this part of the lab, you adapt the program to work more generically. You will have to find your own data set from an online repository such as [https://www.kaggle.com/](https://www.kaggle.com/). The data set you choose has only three requirements: 1) it must be in a text file in CSV format, 2) it must have between 100 and 100,000 entries, and 3) it must be meaningful in some way to you. You will create a class for the data in your dataset. You will read from the dataset and fill a BST with objects of your custom class.
-
-\begin{enumerate}
-    \item Download your own dataset
-    \item Create a well written class to store each record from your dataset. The members of this class must include all attributes in your dataset. This class must contain the following methods beside the default, parametrized, and copy constructors:
-    \begin{quote}
-    @Override\\
-    String toString(){}; \\
-    \end{quote}
-    The method toString() returns a String version of the information stored in the class.  
-
-    \item Create one arrayList to store the objects of your class. 
-    \item Read each row in your dataset and store it in an object of your customized class type and then add it to the arrayList.
-    \item Implement comparator interface in another customized class to compare 2 objects based on a numerical attribute.
-
-You are going to create a **Comparable** `MySquare ` class in MySquare.java as your own datatype in order to check your BST's support for generic classes. 
-
-The `MySquare` class need to contain those variables: the upper left corner of the square `x:int, y:int` ,  the name of square `name:String` , and side length of the square  `sideLength:int`.
-
-You will compare two squares by comparing the size of their areas.
-
-Try to create a new BST from your own created comparable `MySquare` datatype to check the BST's support for user-defined data types.
-
-You will be encouraged to create another new method in `Parser` for operating BST with `MySquare` nodes. The provided method  `operate_BST(String[] command)` will be only tested by BST with integer nodes, which is also defined in `Parser.java` at line 7: `private BST<Integer> mybst = new BST<>();`. To be more specific, you can implement your operations on BST with `MySquare` nodes as follows:
-
-1. Create a new BST with `MySquare` nodes by:  `private  BST<MySquare> BST_mysquare = new BST<>();` 
-2. Create a new method `operate_BST_mysquaree()` in `Parser` class. This method will also be called by method `process()`, and received parameters `command`.
-3. Finish your implementation for `operate_BST_mysquaree()` in similar structure of `operate_BST()`, but you're operating the other BST `BST_mysquare` here.
 
 ## Submission:
 
