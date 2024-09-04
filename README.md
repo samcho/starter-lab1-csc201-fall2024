@@ -2,7 +2,7 @@
 
 ## Pledged Work Policy
 
-This is a ___Pledged Work___ assignment.  This means that the work you submit for grading ___must___ be your team's work product.  
+This is a ___Pledged Work___ assignment.  This means that the work you submit for grading ___must___ be your work product.  
 You may not submit the work of others outside of your team , or the modification of work of others outside of your team.
 You are encouraged to talk with each other about general problems.  For example, you may talk to someone about "What does it mean when the compiler says there is a semicolon missing on line 20", or "I can not get my assignment template to download from GitHub, what did you do?".  However, you may not engage in "Could you send me a copy of your work so I can see how to get started?".  You may get full and detailed assistance from me, the Teaching Assistant (TA), and the TAs in the Computer Science Center.  If you have any question about the appropriateness of assistance, do not hesitate to consult with me.
 
