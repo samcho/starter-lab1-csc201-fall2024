@@ -123,7 +123,7 @@ Note that you need to **implement an iterator** interface that enables the itera
 
 ## Submission:
 
-Your project will be developed and graded via GitHub. Your final "push" is your final submission. On Canvas, enter the url to your Github repository. Your project will not be graded without it.
+Your project will be developed and graded via GitHub. Your final "push" is your final submission, and it must occur before it is due. On Canvas, enter the url to your Github repository. Your project will not be graded without it.
 
 ## Recommendations:
 
@@ -133,16 +133,9 @@ I ___strongly suggest___ that you carefully think through your strategy before j
 
 ```
 /∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗*
-
-∗ @*file: filename. java
-
+∗ @file: filename.java
 ∗ @description: This program implements . . .
-
 ∗ @author: Your Name
-
-∗ @date: September 20 , 2024*
-
-∗ @acknowledgement : worked with XXX*
-
+∗ @date: September 20 , 2024
 ∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗/
 ```
