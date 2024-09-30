@@ -13,7 +13,7 @@
 // Implement the remove method
 
 
-// Implement the earch method
+// Implement the search method
 
 
 // Implement the iterator method
